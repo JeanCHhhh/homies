@@ -14,8 +14,7 @@
     },
     "command": {
         "publish": {
-            "allowBranch": ["master", "dev", "next"],
-            "message": "chore(release): publish %s"
+            "allowBranch": ["master", "dev", "next"]
         },
         "version": {
             "push": true
