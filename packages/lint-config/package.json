@@ -1,0 +1,9 @@
+{
+    "name": "lint-config",
+    "version": "1.0.0-alpha.1",
+    "description": "eslint and stylelint config of vue project",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT"
+}
