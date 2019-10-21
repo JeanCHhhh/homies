@@ -14,14 +14,20 @@
     },
     "command": {
         "publish": {
-            "allowBranch": ["master", "dev", "next"],
+            "allowBranch": [
+                "master",
+                "dev",
+                "next"
+            ],
             "message": "chore(release): publish %s"
         },
         "version": {
             "push": true
         }
     },
-    "packages": ["packages/*"],
+    "packages": [
+        "packages/*"
+    ],
     "npmClient": "yarn",
     "useWorkspaces": true
 }
