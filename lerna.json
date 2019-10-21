@@ -10,5 +10,6 @@
         "version": {
             "push": true
         }
-    }
+    },
+    "useWorkspaces": true
 }
