@@ -1,0 +1,11 @@
+{
+    "name": "@homies/cli",
+    "version": "0.0.1",
+    "description": "> TODO: description",
+    "license": "ISC",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/JeanCHhhh/homies/tree/master/packages/cli"
+}
