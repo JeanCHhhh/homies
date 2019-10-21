@@ -1,15 +1,19 @@
 {
-    "name": "lint-config",
+    "name": "@homies/lint-config",
     "version": "0.0.1",
     "description": "eslint and stylelint config of vue project",
+    "license": "ISC",
     "files": [
         "index.js",
         "style.js"
     ],
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeanCHhhh/homies.git"
     },
-    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JeanCHhhh/homies/issues"
+    },
     "devDependencies": {
         "babel-eslint": "^10.0.3",
         "eslint": "^6.5.1",
