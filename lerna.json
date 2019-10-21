@@ -1,7 +1,14 @@
 {
     "version": "1.0.0-alpha.1",
-    "npmClient": "Yarn",
-    "packages": [
-        "packages/*"
-    ]
+    "npmClient": "yarn",
+    "packages": ["packages/*"],
+    "command": {
+        "publish": {
+            "allowBranch": ["master", "dev", "next"],
+            "message": "chore(release): publish %s"
+        },
+        "version": {
+            "push": true
+        }
+    }
 }
