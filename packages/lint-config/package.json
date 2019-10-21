@@ -2,8 +2,30 @@
     "name": "lint-config",
     "version": "1.0.0-alpha.1",
     "description": "eslint and stylelint config of vue project",
+    "files": [
+        "index.js",
+        "style.js"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.5.1",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.4.0",
+        "eslint-config-vue": "^2.0.2",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-vue": "^5.2.3",
+        "prettier": "^1.18.2",
+        "stylelint": "^11.1.1",
+        "stylelint-config-prettier": "^6.0.0",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^19.0.0",
+        "stylelint-prettier": "^1.1.1",
+        "stylelint-processor-html": "^1.0.0"
+    }
 }
