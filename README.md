@@ -1,2 +1,0 @@
-# homies
-Libraries of Homies
