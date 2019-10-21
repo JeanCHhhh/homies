@@ -3,6 +3,9 @@
     "workspaces": [
         "packages/*"
     ],
+    "scripts": {
+        "release": "lerna publish from-git --yes"
+    },
     "husky": {
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
