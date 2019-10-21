@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "0.0.1",
     "changelog": {
         "repo": "JeanCHhhh/homies",
         "labels": {
@@ -14,14 +14,20 @@
     },
     "command": {
         "publish": {
-            "allowBranch": ["master", "dev", "next"],
+            "allowBranch": [
+                "master",
+                "dev",
+                "next"
+            ],
             "message": "chore(release): publish %s"
         },
         "version": {
             "push": true
         }
     },
-    "packages": ["packages/*"],
+    "packages": [
+        "packages/*"
+    ],
     "npmClient": "yarn",
     "useWorkspaces": true
 }
