@@ -1,0 +1,20 @@
+{
+  "name": "homies",
+  "version": "1.0.0-alpha.1",
+  "description": "Libraries of Homies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanCHhhh/homies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanCHhhh/homies/issues"
+  },
+  "homepage": "https://github.com/JeanCHhhh/homies#readme"
+}
