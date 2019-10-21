@@ -1,6 +1,6 @@
 {
     "name": "@homies/lint-config",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "eslint and stylelint config of vue project",
     "license": "ISC",
     "publishConfig": {
