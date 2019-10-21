@@ -1,22 +1,11 @@
-# @homies/lint-config
-eslint and stylelint config of vue project
+# `lint-config`
 
-## Install
-
-```shell
-yarn add -D @homies/lint-config
-```
+> TODO: description
 
 ## Usage
 
-```js
-// .eslintrc
-{
-  "extends": ["@homies"]
-}
+```
+const lintConfig = require('lint-config');
 
-// .stylelintrc
-{
-  "extends": ["@homies/style"]
-}
+// TODO: DEMONSTRATE API
 ```

@@ -1,8 +1,3 @@
-  
-.DS_Store
 node_modules/
-node_modules/
-
-# Logs
-yarn-error.log
+.changelog/
 lerna-debug.log
