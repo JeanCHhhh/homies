@@ -1,14 +1,16 @@
 {
   "name": "@homies/eslint-config",
   "version": "0.0.4-alpha.0",
-  "description": "",
+  "description": "eslint config of homies project",
   "files": [
     "base.js",
     "react.js",
     "vue.js"
   ],
-  "keywords": [],
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/JeanCHhhh/homies/tree/master/packages/lint-config",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
