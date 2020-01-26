@@ -1,32 +1,27 @@
 {
-    "name": "@homies/lint-config",
-    "version": "0.0.3",
-    "description": "eslint and stylelint config of vue project!",
-    "license": "ISC",
-    "publishConfig": {
-        "access": "public"
-    },
-    "files": [
-        "index.js",
-        "style.js"
-    ],
-    "repository": "https://github.com/JeanCHhhh/homies/tree/master/packages/lint-config",
-    "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.5.1",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-config-prettier": "^6.4.0",
-        "eslint-config-vue": "^2.0.2",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.1",
-        "eslint-plugin-vue": "^5.2.3",
-        "prettier": "^1.18.2",
-        "stylelint": "^11.1.1",
-        "stylelint-config-prettier": "^6.0.0",
-        "stylelint-config-rational-order": "^0.1.2",
-        "stylelint-config-standard": "^19.0.0",
-        "stylelint-prettier": "^1.1.1",
-        "stylelint-processor-html": "^1.0.0"
-    }
+  "name": "@homies/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "base.js",
+    "react.js",
+    "vue.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1"
+  }
 }
