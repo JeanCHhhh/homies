@@ -2,7 +2,9 @@
   "name": "@homies/eslint-config",
   "version": "0.0.4-alpha.0",
   "description": "eslint config of homies project",
+  "main": "index.js",
   "files": [
+    "index.js",
     "base.js",
     "react.js",
     "vue.js"
