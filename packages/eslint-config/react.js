@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [require.resolve('./base'), 'airbnb'],
+  extends: ['airbnb', require.resolve('./base')],
   rules: {
     'jsx-a11y/accessible-emoji': 0,
     'jsx-a11y/media-has-caption': 0,
