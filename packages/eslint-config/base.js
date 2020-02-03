@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base'],
   parser: 'babel-eslint',
   env: {
     browser: true,
@@ -8,6 +8,7 @@ module.exports = {
     mocha: true,
   },
   rules: {
+    'no-param-reassign': 1,
     // es6
     'arrow-parens': [2, 'as-needed'],
     'no-confusing-arrow': 0,
@@ -17,12 +18,14 @@ module.exports = {
     'import/no-unresolved': [
       'error',
       {
-        ignore: ['config', '@/'],
+        ignore: ['config', '@/', 'common/'],
       },
     ],
     // style
     'implicit-arrow-linebreak': 0,
     'object-curly-newline': 0,
-    'operator-linebreak': ['error', 'before', { overrides: { '=': 'ignore' } }],
+  },
+  globals: {
+    $: true,
   },
 };

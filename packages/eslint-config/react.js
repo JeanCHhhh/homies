@@ -1,8 +1,10 @@
 module.exports = {
-  extends: ['airbnb', require.resolve('./base')],
+  extends: ['airbnb', require.resolve('./base'), 'plugin:prettier/recommended', 'prettier/react'],
   rules: {
     'jsx-a11y/accessible-emoji': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/media-has-caption': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
     'react/jsx-curly-newline': [
       0,
       {
