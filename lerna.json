@@ -1,33 +1,13 @@
 {
-  "version": "0.0.5-alpha.2",
-  "changelog": {
-    "repo": "JeanCHhhh/homies",
-    "labels": {
-      "PR: Breaking Change :boom:": ":boom: Breaking Change",
-      "PR: New Feature :rocket:": ":rocket: New Feature",
-      "PR: Bug Fix :bug:": ":bug: Bug Fix",
-      "PR: Docs :memo:": ":memo: Documentation",
-      "PR: Internal :house:": ":house: Internal",
-      "PR: Enhancement :running_man:": ":running_man: Enhancement"
-    },
-    "cacheDir": ".changelog"
-  },
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "publish": {
-      "allowBranch": [
-        "master",
-        "dev",
-        "next"
-      ],
+      "ignoreChanges": ["*.md"],
+      "allowBranch": ["master", "dev", "next"],
       "message": "chore(release): publish %s"
-    },
-    "version": {
-      "push": true
     }
-  },
-  "packages": [
-    "packages/*"
-  ],
-  "npmClient": "yarn",
-  "useWorkspaces": true
+  }
 }
