@@ -7,7 +7,7 @@
     "publish": {
       "ignoreChanges": ["*.md"],
       "allowBranch": ["master", "dev", "next"],
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish"
     }
   }
 }
