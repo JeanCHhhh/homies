@@ -1,0 +1,19 @@
+{
+  "name": "@homies/stylelint-config",
+  "version": "0.1.0",
+  "description": "stylelint config of homies project.",
+  "author": "JeanCHhhh <jin.chen@shanbay.com>",
+  "homepage": "https://github.com/JeanCHhhh/homies/packages/stylelint-config#readme",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/JeanCHhhh/homies/tree/dev/packages/stylelint-config",
+  "dependencies": {
+    "prettier": "^1.19.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
