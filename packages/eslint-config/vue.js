@@ -5,6 +5,10 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier/vue',
   ],
+  parserOptions: {
+    parser: 'babel-eslint',
+    sourceType: 'module',
+  },
   rules: {
     // import
     'import/extensions': 0,
