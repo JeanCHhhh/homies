@@ -1,10 +1,11 @@
 {
+  "name": "homies",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish from-git --yes"
+    "release": "lerna publish --conventional-commits --dist-tag=next"
   },
   "husky": {
     "hooks": {
@@ -22,6 +23,5 @@
     "husky": "^3.0.9",
     "lerna": "^3.18.1",
     "lerna-changelog": "^0.8.2"
-  },
-  "name": "homies"
+  }
 }
