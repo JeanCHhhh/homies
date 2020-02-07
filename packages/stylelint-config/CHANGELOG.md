@@ -3,13 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1](https://github.com/JeanCHhhh/homies/tree/dev/packages/stylelint-config/compare/@homies/stylelint-config@1.0.1-alpha.0...@homies/stylelint-config@1.0.1) (2020-02-07)
+## [1.0.1](https://github.com/JeanCHhhh/homies/compare/@homies/stylelint-config@1.0.1-alpha.0...@homies/stylelint-config@1.0.1) (2020-02-07)
 
-**Note:** Version bump only for package @homies/stylelint-config
+### Bug Fixes
 
-
-
-
+- Fix styelint undefined rule unicode-bom error
 
 # 1.0.0 (2020-02-07)
 
