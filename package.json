@@ -7,7 +7,6 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "version": "lerna version --conventional-commits",
     "release": "lerna publish from-git"
   },
   "devDependencies": {
