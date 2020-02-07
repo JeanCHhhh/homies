@@ -1,6 +1,6 @@
 {
   "name": "@homies/eslint-config",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "eslint config of homies project",
   "main": "index.js",
   "files": [
@@ -12,7 +12,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {},
   "dependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
